@@ -61,7 +61,7 @@
             <div class="form-input-variant_one">
               <label for="country">Country</label>
               <div class="input-container">
-                <i class="fa-solid fa-city"></i>
+                <i class="fa-solid fa-earth-africa"></i>
                 <select id="country" required>
                   <option value="">Your country...</option>
                   <option value="country">Nigeria</option>
@@ -69,61 +69,68 @@
                   <option value="china">China</option>
                   <option value="usa">USA</option>
                 </select>
-                <i class="fa-solid fa-chevron-down"></i>
               </div>
             </div>
             <div class="form-input-variant_two">
               <label for="postal">Your postal code</label>
               <div class="input-container">
-                <i class="fa-solid fa-earth-africa"></i>
+                <i class="fa-solid fa-envelopes-bulk"></i>
                 <input type="text" id="postal" placeholder="Your postal code..." required>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="check">
+          <input type="checkbox">
+          <span>Save this information for next time</span>
+        </div>
+
         <button type="submit" >Continue</button>
       </form>
   
       <div class="cart">
         <div class="product product-one">
-          <img src="" alt="">
+          <img src="./resources/photo1.png" alt="photo1">
           <div class="product-details">
             <div class="product-name">Vintage Backbag</div>
-            <div class="produc-price">
+            <div class="product-price">
               <span>$54.99</span>
               <span>$94.99</span>
             </div>
             <div class="product-btn">
-              <p>-</p>
-              <input type="text" value="1">
-              <p>+</p>
+              <button>-</button>
+              <p>1</p>
+              <button>+</button>
             </div>
           </div>
         </div>
   
         <div class="product product-two">
-          <img src="" alt="">
+          <img src="./resources/photo2.png " alt="photo2">
           <div class="product-details">
             <div class="product-name">Levi Shoes</div>
-            <div class="produc-price">
+            <div class="product-price">
               <span>$74.99</span>
               <span>$124.99</span>
             </div>
             <div class="product-btn">
-              <p>-</p>
-              <input type="number" value="1">
-              <p>+</p>
+              <button>-</button>
+              <p>1</p>
+              <button>+</button>
             </div>
           </div>
         </div>
   
         <div class="price">
+          <p class="line"></p>
           <div class="price-shipping">
             <p class="text">Shipping</p>
             <p class="amount">$19</p>
           </div>
+          <p class="line"></p>
           <div class="price-total">
-            <p class="text">Totak</p>
+            <p class="text">Total</p>
             <p class="amount">$148.98</p>
           </div>
         </div>
