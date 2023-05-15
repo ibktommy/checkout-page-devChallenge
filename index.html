@@ -11,6 +11,130 @@
   <link rel="stylesheet" href="./media.css">
 </head>
 <body>
+  <div class="container">
+    <h2 class="main-title">Checkout Page</h2>
+
+    <section class="checkout">
+      <form action="">
+        <div class="contact">
+          <h4 class="details-title">Contact information</h4>
+          <div class="form-input">
+            <label for="email">Email</label>
+            <div class="input-container">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="email">Phone</label>
+            <div class="input-container">
+              <i class="fa-solid fa-phone"></i>
+              <input type="number" name="number" id="number" placeholder="Enter your phone..." required>
+            </div>
+          </div>
+        </div>
   
+        <div class="shipping">
+          <h4 class="details-title">Shipping address</h4>
+          <div class="form-input">
+            <label for="name">Full name</label>
+            <div class="input-container">
+              <i class="fa-solid fa-circle-user"></i>
+              <input type="name" id="name" placeholder="Rodney Cotton" required>
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="address">Address</label>
+            <div class="input-container">
+              <i class="fa-solid fa-house"></i>
+              <input type="text" id="address" placeholder="Your address..." required>
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="city">City</label>
+            <div class="input-container">
+              <i class="fa-solid fa-city"></i>
+              <input type="text" id="city" placeholder="Your city..." required>
+            </div>
+          </div>
+          <div class="form-input-variant">
+            <div class="form-input-variant_one">
+              <label for="country">Country</label>
+              <div class="input-container">
+                <i class="fa-solid fa-city"></i>
+                <select id="country" required>
+                  <option value="">Your country...</option>
+                  <option value="country">Nigeria</option>
+                  <option value="canada">Canada</option>
+                  <option value="china">China</option>
+                  <option value="usa">USA</option>
+                </select>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="form-input-variant_two">
+              <label for="postal">Your postal code</label>
+              <div class="input-container">
+                <i class="fa-solid fa-earth-africa"></i>
+                <input type="text" id="postal" placeholder="Your postal code..." required>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit" >Continue</button>
+      </form>
+  
+      <div class="cart">
+        <div class="product product-one">
+          <img src="" alt="">
+          <div class="product-details">
+            <div class="product-name">Vintage Backbag</div>
+            <div class="produc-price">
+              <span>$54.99</span>
+              <span>$94.99</span>
+            </div>
+            <div class="product-btn">
+              <p>-</p>
+              <input type="text" value="1">
+              <p>+</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="product product-two">
+          <img src="" alt="">
+          <div class="product-details">
+            <div class="product-name">Levi Shoes</div>
+            <div class="produc-price">
+              <span>$74.99</span>
+              <span>$124.99</span>
+            </div>
+            <div class="product-btn">
+              <p>-</p>
+              <input type="number" value="1">
+              <p>+</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="price">
+          <div class="price-shipping">
+            <p class="text">Shipping</p>
+            <p class="amount">$19</p>
+          </div>
+          <div class="price-total">
+            <p class="text">Totak</p>
+            <p class="amount">$148.98</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="footer-text">
+        created by <b>ibktommy</b> - devChallenges.io
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
