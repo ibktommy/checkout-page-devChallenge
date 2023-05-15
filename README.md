@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="{YOUR SOLUTION LINK}">
+    <a href="https://devchallenges.io/solutions/8sSbu78PZCE20MIyshhm">
       Solution
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot]('WEB SCREENSHOT')
+![screenshot](https://github.com/ibktommy/checkout-page-devChallenge/blob/main/screenshot.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
